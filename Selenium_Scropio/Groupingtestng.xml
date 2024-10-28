@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="RegressionTest"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Campaigns.Program003_CreateCampaignUsingBaseClass"/>
+      <class name="Organization.Program002_CreateOrganizationUsingBaseClass"/>
+      <class name="Campaigns.Program004_CeateCampaignWithProductUsingBaseClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
