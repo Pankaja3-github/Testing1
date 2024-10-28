@@ -11,6 +11,7 @@ import Generic_Utilities.Program002_File_Utility;
 public class Program001_FetchingDataFromProperties_File {
 	public static void main(String[] args) throws Throwable {
 		System.out.println("Hello!"); //1st pull
+		System.out.println("Hello2!"); //2st pull
 //		//Step 1 : get the file path connectiom
 //		FileInputStream fis = new FileInputStream("C:\\Users\\Asus\\Documents\\Property.properties");
 //		
