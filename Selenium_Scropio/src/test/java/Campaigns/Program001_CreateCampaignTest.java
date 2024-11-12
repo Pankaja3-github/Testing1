@@ -86,5 +86,4 @@ public class Program001_CreateCampaignTest
 		valid.validateCampName(driver,CampName);
 		home.logout(driver);
 	}
-
 }
