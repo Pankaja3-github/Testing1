@@ -1,5 +1,6 @@
 package Generic_Utilities;
 
+//import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -21,6 +22,9 @@ import ObjectRepository.Program002_HomePage;
 public class Program005_BaseClass 
 {
 	public WebDriver driver;
+	public static WebDriver sdriver;
+//	public static TakesScreenshot sdriver;
+	
     @BeforeSuite(groups = {"SmokeTest","RegressionTest"})
     public void bs()
     {
