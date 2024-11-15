@@ -115,7 +115,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 						<version>3.5.0</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>BatchExecutiontestng.xml</suiteXmlFile>
+								<suiteXmlFile>Batchtestng.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
