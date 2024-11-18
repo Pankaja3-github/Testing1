@@ -13,6 +13,7 @@ public class Program008_ValidateProducts {
 	public String validateProdName(WebDriver driver, String ProdName)
 	{
 		return driver.findElement(By.xpath("//span[@id='dtlview_Product Name']")).getText();
+//		span[@id='dtlview_Product Name']
 //		if(actData.contains(ProdName))
 //		{
 //			System.out.println("Product Name is Created");

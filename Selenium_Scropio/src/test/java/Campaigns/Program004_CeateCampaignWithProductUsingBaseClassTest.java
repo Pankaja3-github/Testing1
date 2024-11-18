@@ -16,7 +16,7 @@ import ObjectRepository.Program007_CreateProductPage;
 import ObjectRepository.Program008_ValidateProducts;
 import ObjectRepository.Program010_SwitchingProductPage;
 
-public class Program004_CeateCampaignWithProductUsingBaseClass extends Program005_BaseClass
+public class Program004_CeateCampaignWithProductUsingBaseClassTest extends Program005_BaseClass
 {
 	@Test
 	public void createCampaignWithProduct() throws Throwable {

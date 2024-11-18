@@ -8,41 +8,14 @@
           <include name="am"/>
           <include name="bm"/>
           <include name="createCampaignWithProduct"/>
-          <include name="bc"/>
           <include name="bs"/>
+          <include name="bc"/>
           <include name="at"/>
-          <include name="ac"/>
           <include name="as"/>
           <include name="bt"/>
+          <include name="ac"/>
         </methods>
       </class> <!-- Campaigns.Program004_CeateCampaignWithProductUsingBaseClass -->
-      <class name="Organization.Program002_CreateOrganizationUsingBaseClass">
-        <methods>
-          <include name="am"/>
-          <include name="bm"/>
-          <include name="createOrganizationTest"/>
-          <include name="bc"/>
-          <include name="bs"/>
-          <include name="at"/>
-          <include name="ac"/>
-          <include name="as"/>
-          <include name="bt"/>
-        </methods>
-      </class> <!-- Organization.Program002_CreateOrganizationUsingBaseClass -->
-      <class name="Campaigns.Program003_CreateCampaignUsingBaseClassTest">
-        <methods>
-          <include name="am"/>
-          <include name="bm"/>
-          <include name="m1"/>
-          <include name="bc"/>
-          <include name="bs"/>
-          <include name="at"/>
-          <include name="ac"/>
-          <include name="as"/>
-          <include name="bt"/>
-          <include name="createCampaignsTest"/>
-        </methods>
-      </class> <!-- Campaigns.Program003_CreateCampaignUsingBaseClassTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

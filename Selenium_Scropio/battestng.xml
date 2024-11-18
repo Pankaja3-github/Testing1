@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Campaigns.Program004_CeateCampaignWithProductUsingBaseClass"/>
+      <class name="Product.Program003_CreateProductUsingBaseClassTest"/>
       <class name="Campaigns.Program003_CreateCampaignUsingBaseClassTest"/>
     </classes>
   </test> <!-- Test -->

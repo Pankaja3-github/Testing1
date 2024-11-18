@@ -10,7 +10,7 @@ import ObjectRepository.Program006_CreateProductNavigationPage;
 import ObjectRepository.Program007_CreateProductPage;
 import ObjectRepository.Program008_ValidateProducts;
 
-public class Program003_CreateProductUsingBaseClass extends Program005_BaseClass{
+public class Program003_CreateProductUsingBaseClassTest extends Program005_BaseClass{
 	@Test(groups = "RegressionTest")
 	public void createProductTest() throws Throwable {
 		//Step1:-Login to vtiger application		
