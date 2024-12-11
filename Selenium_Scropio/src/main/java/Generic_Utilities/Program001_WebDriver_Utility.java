@@ -1,20 +1,20 @@
 package Generic_Utilities;
 
-import java.io.File;
+//import java.io.File;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+//import org.openqa.selenium.OutputType;
+//import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
+//import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -130,23 +130,23 @@ public class Program001_WebDriver_Utility
 			act.moveToElement(ele).perform();
 		}
 	
-	   public static String takeScreenShot(WebDriver driver,String screenShotNames) throws Throwable
-		{
-			TakesScreenshot takesSceenShot = (TakesScreenshot)driver;
-			File src = takesSceenShot.getScreenshotAs(OutputType.FILE);
-			File dst = new File("./ScreenShots/"+screenShotNames+".png");
-			FileUtils.copyFile(src, dst);
-			return dst.getAbsolutePath();
-			}
-		
-		public static String takeScreenShot1(WebDriver driver, String screenShotName) throws Throwable {
-			
-			TakesScreenshot takesSceenShot = (TakesScreenshot) driver;
-			File src = takesSceenShot.getScreenshotAs(OutputType.FILE);
-			File dst = new File("./ScreenShots/" + screenShotName +".png");
-			FileUtils.copyFile(src, dst);
-			return dst.getAbsolutePath();
-		}
-	
+//	   public static String takeScreenShot(WebDriver driver,String screenShotNames) throws Throwable
+//		{
+//			TakesScreenshot takesSceenShot = (TakesScreenshot)driver;
+//			File src = takesSceenShot.getScreenshotAs(OutputType.FILE);
+//			File dst = new File("./ScreenShots/"+screenShotNames+".png");
+//			FileUtils.copyFile(src, dst);
+//			return dst.getAbsolutePath();
+//			}
+//		
+//		public static String takeScreenShot1(WebDriver driver, String screenShotName) throws Throwable {
+//			
+//			TakesScreenshot takesSceenShot = (TakesScreenshot) driver;
+//			File src = takesSceenShot.getScreenshotAs(OutputType.FILE);
+//			File dst = new File("./ScreenShots/" + screenShotName +".png");
+//			FileUtils.copyFile(src, dst);
+//			return dst.getAbsolutePath();
+//		}
+//	
 
 }

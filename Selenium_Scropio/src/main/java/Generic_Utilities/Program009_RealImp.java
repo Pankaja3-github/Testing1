@@ -34,15 +34,15 @@ public class Program009_RealImp implements ITestListener
 		test.log(Status.FAIL, result.getMethod().getMethodName());
 		test.log(Status.FAIL, result.getThrowable());
 
-		String screenshot = null;
-		try {
-			screenshot = Program001_WebDriver_Utility.takeScreenShot1(Program005_BaseClass.sdriver, result.getMethod().getMethodName());
-
-		} catch (Throwable e) {
-
-			e.printStackTrace();
-		}
-		test.addScreenCaptureFromPath(screenshot);
+//		String screenshot = null;
+//		try {
+//			screenshot = Program001_WebDriver_Utility.takeScreenShot1(Program005_BaseClass.sdriver, result.getMethod().getMethodName());
+//
+//		} catch (Throwable e) {
+//
+//			e.printStackTrace();
+//		}
+//		test.addScreenCaptureFromPath(screenshot);
 	}
 
 	public void onTestSkipped(ITestResult result) {

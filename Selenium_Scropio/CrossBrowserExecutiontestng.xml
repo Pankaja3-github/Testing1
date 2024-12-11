@@ -8,7 +8,7 @@
   <parameter name="USERNAME" value="admin"/>
   <parameter name="PASSWORD" value="admin"/>
     <classes>
-      <class name="Campaigns.Program003_CreateCampaignUsingBaseClass"/>
+      <class name="Campaigns.Program003_CreateCampaignUsingBaseClassTest"/>
       </classes>
   </test>
   
@@ -18,7 +18,7 @@
   <parameter name="USERNAME" value="admin"/>
   <parameter name="PASSWORD" value="admin"/>
   <classes>
-      <class name="Organization.Program002_CreateOrganizationUsingBaseClass"/>
+      <class name="Organization.Program002_CreateOrganizationUsingBaseClassTest"/>
       </classes>
       </test>
   
@@ -28,7 +28,7 @@
   <parameter name="USERNAME" value="admin"/>
   <parameter name="PASSWORD" value="admin"/>     
       <classes>
-      <class name="Product.Program003_CreateProductUsingBaseClass"/>
+      <class name="Product.Program003_CreateProductUsingBaseClassTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

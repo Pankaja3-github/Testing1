@@ -10,7 +10,7 @@ import ObjectRepository.Program012_CreateOrganizationNavigationPage;
 import ObjectRepository.Program013_CreateOrganizationPage;
 import ObjectRepository.Program014_ValidateOrganization;
 
-public class Program002_CreateOrganizationUsingBaseClass extends Program005_BaseClass 
+public class Program002_CreateOrganizationUsingBaseClassTest extends Program005_BaseClass 
 {
 	@Test
 	public void createOrganizationTest() throws Throwable {
